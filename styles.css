@@ -59,9 +59,9 @@ main {
     display: flex;
     flex-direction: column;
     background-color: rgb(59, 40, 14);
-    margin: auto;
-    width: 950px ;
-    height: 350px;
+    /*margin: auto;*/
+    width: 850px ;
+    height: auto;
     font-family: 'Rubik', sans-serif;
     border-radius: 8px;
 
@@ -69,7 +69,7 @@ main {
 
 .grid-item img {    
     max-width: 540px;
-    height: auto;
+    height: 100%;
     border-radius: 8px;
 }
 
@@ -136,6 +136,7 @@ main {
 
     .grid-item img {
        max-width: 320px;
+       height: 100%;
     }
 
     .btn-compare {
@@ -160,6 +161,7 @@ main {
     }
 
     .grid-item img {
+
         width: 50%;
         height: 50%;
      }
